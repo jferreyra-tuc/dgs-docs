@@ -7,15 +7,17 @@
 
 correspondientes a:
 
-    1. CONECTIVIDAD (FONDO NACION)
-    2. ART 11
-    3. AMPLIACION HORARIA
+    1. 21 CONECTIVIDAD (Tipo 1 FONDO NACION)
+    2. 30 ART 11 (Tipo 2)
+    3. 26 AMPLIACION HORARIA (Tipo 3)
 
 Se realiza la carga en el sistema:
 
 ![alt text](Carga1.png "Carga de novedad seleccion tipo de liquidación" )
 
 ![alt text](Carga2.png "Carga de novedad seleccion de tipo de hoja" )
+
+Antes de aceptar la carga de los archivos, se debe validar que el tipo de liquidacion, ya sea FN NAC, AMPLIACION HORARIA y ART 11 corresponda al tipo de novedad, tipo 1, 2 y 3 .
 
 Una vez cargadas las novedades. Se deben tranformar cada hoja cargada. Luego generar la novedad de haberes. El proceso genera una hoja de tipo NOVEDAD DE HABERES de cada tipo de liquidación para armar los adicionales.
 
